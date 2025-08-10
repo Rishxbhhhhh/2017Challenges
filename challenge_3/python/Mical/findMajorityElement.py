@@ -4,7 +4,7 @@ from math import *
 
 def findElement(things):
     maj = floor((len(things)/2))
-    for element in list:
+    for element in things:
         c = things.count(element)
         if c >= maj:
             print(element)
